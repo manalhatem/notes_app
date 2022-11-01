@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 
+import '../widgets/custom_note_item.dart';
 import '../widgets/search.dart';
 
 class NotesView extends StatelessWidget {
@@ -18,6 +19,7 @@ class NotesView extends StatelessWidget {
          Search(),
       ],
       ),
+      body: const NoteItem()
     );
   }
 }
