@@ -20,7 +20,7 @@ class NoteItem extends StatelessWidget {
         ListTile(
           title: const Text('First Note',style: TextStyle(fontSize: 26,color: Colors.black),),
           subtitle: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 10),
+            padding: const EdgeInsets.symmetric(vertical: 6),
             child: Text('Hi my name is noor Hi my name ',style: TextStyle(
               fontSize: 16
               ,color: Colors.black.withOpacity(.5)),),
